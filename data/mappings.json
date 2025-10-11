@@ -1,0 +1,50 @@
+{
+  "family_history": {
+    "no": 0,
+    "yes": 1
+  },
+  "FAVC": {
+    "no": 0,
+    "yes": 1
+  },
+  "SMOKE": {
+    "no": 0,
+    "yes": 1
+  },
+  "SCC": {
+    "no": 0,
+    "yes": 1
+  },
+  "Gender": {
+    "Female": 0,
+    "Male": 1
+  },
+  "CAEC": {
+    "no": 0,
+    "Sometimes": 1,
+    "Frequently": 2,
+    "Always": 3
+  },
+  "CALC": {
+    "no": 0,
+    "Sometimes": 1,
+    "Frequently": 2,
+    "Always": 3
+  },
+  "MTRANS": {
+    "Public_Transportation": 0,
+    "Walking": 1,
+    "Automobile": 2,
+    "Motorbike": 3,
+    "Bike": 4
+  },
+  "Obesity": {
+    "Insufficient_Weight": 0,
+    "Normal_Weight": 1,
+    "Overweight_Level_I": 2,
+    "Overweight_Level_II": 3,
+    "Obesity_Type_I": 4,
+    "Obesity_Type_II": 5,
+    "Obesity_Type_III": 6
+  }
+}
