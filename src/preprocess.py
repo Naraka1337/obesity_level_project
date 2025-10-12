@@ -5,7 +5,7 @@ from pathlib import Path
 # =========================
 # Paths
 # =========================
-DATA_IN = Path("../data/obesity_ prediction.csv")
+DATA_IN = Path("../data/obesity_prediction.csv")
 DATA_OUT = Path("../data/obesity_numeric.csv")
 MAPPINGS_OUT = Path("../data/mappings.json")
 
