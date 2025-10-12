@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-10-12T17:49:16.517406",
+  "dataset_info": {
+    "total_samples": 2111,
+    "features": [
+      "Gender",
+      "Age",
+      "Height",
+      "Weight",
+      "family_history",
+      "FAVC",
+      "FCVC",
+      "NCP",
+      "CAEC",
+      "SMOKE",
+      "CH2O",
+      "SCC",
+      "FAF",
+      "TUE",
+      "CALC",
+      "MTRANS"
+    ],
+    "target_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "train_samples": 1266,
+    "val_samples": 422,
+    "test_samples": 423
+  },
+  "models": {
+    "Random Forest": {
+      "best_params": {
+        "max_depth": 20,
+        "min_samples_split": 5,
+        "n_estimators": 100
+      },
+      "validation_accuracy": 0.95260663507109,
+      "cv_mean": 0.9392020167439543,
+      "cv_std": 0.02523647670481917,
+      "test_accuracy": 0.9361702127659575,
+      "test_precision": 0.9421414669758597,
+      "test_recall": 0.9361702127659575,
+      "test_f1": 0.9361692982849864
+    },
+    "SVM": {
+      "best_params": {
+        "C": 10,
+        "gamma": "scale",
+        "kernel": "linear"
+      },
+      "validation_accuracy": 0.95260663507109,
+      "cv_mean": 0.954181320220348,
+      "cv_std": 0.01136351252786256,
+      "test_accuracy": 0.9574468085106383,
+      "test_precision": 0.9586447444457592,
+      "test_recall": 0.9574468085106383,
+      "test_f1": 0.9574638962440738
+    },
+    "Logistic Regression": {
+      "best_params": {
+        "C": 10,
+        "solver": "lbfgs"
+      },
+      "validation_accuracy": 0.9265402843601895,
+      "cv_mean": 0.9265288973265694,
+      "cv_std": 0.018167031868268887,
+      "test_accuracy": 0.9243498817966903,
+      "test_precision": 0.9241445496129714,
+      "test_recall": 0.9243498817966903,
+      "test_f1": 0.9238522461187509
+    }
+  },
+  "best_model": "SVM",
+  "best_accuracy": 0.9574468085106383
+}
