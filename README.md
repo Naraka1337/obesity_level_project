@@ -107,6 +107,7 @@ jupyter lab
 
 ### Data Cleaning
 - Checked for missing values (none found!)
+- Removed 24 duplicate rows (2111 → 2087 records)
 - Verified data ranges for age, height, weight
 - Identified and analyzed outliers
 - Added BMI calculation (Weight / Height²)
@@ -130,6 +131,8 @@ We converted categorical variables to numbers for analysis:
 ## Key Findings
 
 - Dataset has no missing values
+- Found and removed 24 duplicate rows
+- Final dataset: 2,087 unique records
 - BMI is highly correlated with obesity level (as expected)
 - Family history appears to have an impact on obesity
 - Age distribution is mostly young adults
